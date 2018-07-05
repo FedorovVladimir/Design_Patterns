@@ -1,10 +1,12 @@
 package Singleton;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class SingletonTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getInstance() {
         assertEquals(Singleton.getInstance(), Singleton.getInstance());
     }
