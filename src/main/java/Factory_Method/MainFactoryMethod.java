@@ -1,11 +1,15 @@
 package Factory_Method;
 
+import Factory_Method.Car.Car;
+
 public class MainFactoryMethod {
     public static void main(String[] arg) {
-        CarSelector carSelector = new CarSelector();
+        Car firstCar = CarSelector.getCar(RoadType.CITY);
+        Car secondCar = CarSelector.getCar(RoadType.OFF_ROAD);
+        Car thirdCar = CarSelector.getCar(RoadType.GRASS);
 
-        Car firstCar = carSelector.getCar(RoadType.CITY);
-        Car secondCar = carSelector.getCar(RoadType.OFF_ROAD);
-        Car thirdCar = carSelector.getCar(RoadType.GRASS);
+        firstCar.drive();
+        secondCar.stop();
+        thirdCar.drive();
     }
 }

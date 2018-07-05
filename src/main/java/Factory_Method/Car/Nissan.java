@@ -1,4 +1,4 @@
-package Factory_Method;
+package Factory_Method.Car;
 
 public class Nissan implements Car {
     public void drive() {

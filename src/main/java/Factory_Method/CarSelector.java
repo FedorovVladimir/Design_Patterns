@@ -1,8 +1,13 @@
 package Factory_Method;
 
+import Factory_Method.Car.Car;
+import Factory_Method.Car.Ford;
+import Factory_Method.Car.Nissan;
+import Factory_Method.Car.Opel;
+
 class CarSelector {
 
-    public Car getCar(RoadType roadType) {
+    public static Car getCar(RoadType roadType) {
         Car car;
         if (roadType == RoadType.CITY)
             car = new Opel();

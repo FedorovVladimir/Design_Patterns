@@ -1,6 +1,6 @@
-package Factory_Method;
+package Factory_Method.Car;
 
-public class Opel implements Car{
+public class Opel implements Car {
 
     public void drive() {
         System.out.println("Opel drive");
