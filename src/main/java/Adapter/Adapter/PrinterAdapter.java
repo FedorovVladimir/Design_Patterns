@@ -7,12 +7,9 @@ import java.util.List;
 public class PrinterAdapter implements PageListPrinter {
     private Printer printer = new Printer();
 
-    public String print(List<String> list) {
-        String text = "";
-        for (String str : list) {
-            text += str + "\n";
+    public void print(List<String> list) {
+        for (String text : list) {
+            printer.print(text);
         }
-        printer.print(text);
-        return text;
     }
 }
