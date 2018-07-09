@@ -1,31 +1,15 @@
-<h1>Design_Patterns<h1>
+# Design_Patterns
 
-<h2>Creational</h2>
-<ol>
-  <li>Singleton</li>
-  <li>Factory Method</li>
-  <li>Abstract Factory</li>
-</ol>
-    
-<h2>Structual</h2>
-<ol>
-  <li>Decorator</li>
-  <li>Adapter</li>
-  <li>Facade</li>
-</ol>
-  
-<h2>Behavioral</h2>
-<ol>
-  <li>Observer</li>
-  <li>State</li>
-</ol>
+Creational
+1) Singleton
+2) Factory Method
+3) Abstract Factory
 
-<style>
-  h1 {
-    color: #932;
-    font-size: 20pt;
-  }
-  h2 {
-    color: #d32;    font-size: 16pt
-  }
-</style>
+Structual
+1) Decorator
+2) Adapter
+3) Facade
+
+Behavioral
+1) Observer
+2) State
