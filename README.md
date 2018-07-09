@@ -11,3 +11,4 @@ Structual
 3) Facade
 
 Behavioral
+1) Observer
