@@ -13,3 +13,4 @@ Structual
 Behavioral
 1) Observer
 2) State
+3) Strategy
